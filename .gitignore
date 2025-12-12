@@ -1,0 +1,17 @@
+# MongoDB builds
+mongo-*/
+build/
+dbpath/
+data/
+
+# Terraform
+.terraform/
+*.tfstate*
+crash.log
+
+# SSH keys
+*.pem
+*.key
+
+# OS junk
+.DS_Store
