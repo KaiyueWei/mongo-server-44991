@@ -99,16 +99,16 @@ resource "aws_route_table_association" "public_assoc" {
 }
 
 ############################################
-# Ubuntu 22.04 AMI
+# Ubuntu 20.04 AMI (Focal)
 ############################################
 
-data "aws_ami" "ubuntu_2204" {
+data "aws_ami" "ubuntu_2004" {
   most_recent = true
   owners      = ["099720109477"] # Canonical
 
   filter {
     name   = "name"
-    values = ["ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-*"]
+    values = ["ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-*"]
   }
 
   filter {
@@ -147,7 +147,7 @@ resource "aws_security_group" "mongo_debug_sg" {
 ############################################
 
 resource "aws_instance" "mongo_debug" {
-  ami                         = data.aws_ami.ubuntu_2204.id
+  ami                         = data.aws_ami.ubuntu_2004.id
   instance_type               = var.instance_type
   subnet_id                   = aws_subnet.public_subnet.id
   vpc_security_group_ids      = [aws_security_group.mongo_debug_sg.id]
@@ -220,7 +220,7 @@ MSG
   EOF
 
   tags = {
-    Name = "mongo-debug-jammy"
+    Name = "mongo-debug-focal"
     Purpose = "SERVER-44991-debug"
   }
 }

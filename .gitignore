@@ -5,6 +5,7 @@ dbpath/
 data/
 
 # Terraform
+.terraform
 .terraform/
 *.tfstate*
 crash.log
