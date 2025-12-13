@@ -12,7 +12,7 @@ set -euo pipefail
 DBPATH="$HOME/data/server44991-db"
 PARALLEL_TESTER="$MONGO_HOME/jstests/libs/parallelTester.js"
 
-FLAMEGRAPH_DIR="$HOME/FlameGraph"
+FLAMEGRAPH_DIR="$HOME/tools/FlameGraph"
 RESULTS_DIR="$HOME/mongo-server-44991/results"
 VERSION_TAG=$(basename "$MONGO_HOME")
 
