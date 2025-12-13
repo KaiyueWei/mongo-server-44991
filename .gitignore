@@ -16,3 +16,10 @@ crash.log
 
 # OS junk
 .DS_Store
+
+# Perf artifacts
+*.folded
+*.perf
+*.out
+*.script
+perf.data*
