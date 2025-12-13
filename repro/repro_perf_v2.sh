@@ -11,7 +11,7 @@ DBPATH="$HOME/data/db"
 PARALLEL_TESTER="$MONGO_HOME/jstests/libs/parallelTester.js"
 
 RESULTS_DIR="$HOME/mongo-server-44991/results"
-FLAMEGRAPH_DIR="$HOME/FlameGraph"
+FLAMEGRAPH_DIR="$HOME/tools/FlameGraph"
 
 PERF_FREQ=99
 UPDATE_ROUNDS=200        # increase server-side work

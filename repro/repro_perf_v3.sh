@@ -5,7 +5,7 @@ set -euo pipefail
 # CONFIG
 ############################################
 
-MONGO_HOME=${MONGO_HOME:-"$HOME/work/mongo-4.2.1"}
+MONGO_HOME=${MONGO_HOME:-"$HOME/work/mongo-4.0.13"}
 DBPATH="$HOME/data/db"
 RESULTS_DIR="$HOME/mongo-server-44991/results"
 FLAMEGRAPH_DIR="$HOME/tools/FlameGraph"
