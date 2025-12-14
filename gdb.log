@@ -1,0 +1,989 @@
+session = 0x5593699f6078
+page = 0x55938e955000
+rip = 0x55938e956320
+key = 0x5593ba86a060
+No locals.
+No symbol "type" in current context.
+session = 0x5593699f6078
+page = 0x55938e955000
+rip = 0x55938e956320
+key = 0x5593ba86a060
+No symbol "type" in current context.
+[Switching to Thread 0x7f6207f3c700 (LWP 45556)]
+
+Thread 10 "mongod" hit Breakpoint 3, __wt_row_leaf_key_copy (session=session@entry=0x5593699f3720, page=page@entry=0x5593d8962000, rip=rip@entry=0x5593d8962f80, key=0x55937cc154d0) at src/third_party/wiredtiger/src/btree/row_key.c:111
+111	{
+session = 0x5593699f3720
+page = 0x5593d8962000
+rip = 0x5593d8962f80
+key = 0x55937cc154d0
+No symbol "type" in current context.
+$6 = (WT_ITEM *) 0x55937cc154d0
+type = struct __wt_item {
+    const void *data;
+    size_t size;
+    void *mem;
+    size_t memsize;
+    uint32_t flags;
+} *
+$7 = 0
+$8 = (const void *) 0x0
+Hardware watchpoint 4: *$ks
+Continuing.
+[Switching to Thread 0x7f6208f3e700 (LWP 45554)]
+
+Thread 8 "mongod" hit Breakpoint 3, __wt_row_leaf_key_copy (session=session@entry=0x5593699f2df0, page=page@entry=0x5593b9dd0000, rip=rip@entry=0x5593b9dd21c8, key=0x559395c0b320) at src/third_party/wiredtiger/src/btree/row_key.c:111
+111	{
+Continuing.
+[Switching to Thread 0x7f61fc422700 (LWP 45613)]
+
+Thread 37 "conn11" hit Breakpoint 2, __wt_reconcile (session=session@entry=0x5593699f5be0, ref=ref@entry=0x559371134cc0, salvage=salvage@entry=0x0, flags=flags@entry=162, lookaside_retryp=0x0) at src/third_party/wiredtiger/src/reconcile/rec_write.c:34
+34	{
+Continuing.
+[Switching to Thread 0x7f61fc523700 (LWP 45614)]
+
+Thread 38 "conn12" hit Breakpoint 2, __wt_reconcile (session=session@entry=0x5593699f6510, ref=ref@entry=0x5593c0ddbc80, salvage=salvage@entry=0x0, flags=flags@entry=162, lookaside_retryp=0x0) at src/third_party/wiredtiger/src/reconcile/rec_write.c:34
+34	{
+Continuing.
+[Switching to Thread 0x7f61fc624700 (LWP 45610)]
+
+Thread 34 "conn8" hit Breakpoint 3, __wt_row_leaf_key_copy (session=session@entry=0x5593699f6078, page=page@entry=0x55938e955000, rip=rip@entry=0x55938e956328, key=0x5593ba86a060) at src/third_party/wiredtiger/src/btree/row_key.c:111
+111	{
+Continuing.
+[Switching to Thread 0x7f620773b700 (LWP 45557)]
+
+Thread 11 "mongod" hit Breakpoint 3, __wt_row_leaf_key_copy (session=session@entry=0x5593699f3bb8, page=page@entry=0x559391740000, rip=rip@entry=0x559391740548, key=0x55938ab94440) at src/third_party/wiredtiger/src/btree/row_key.c:111
+111	{
+Continuing.
+[Switching to Thread 0x7f620873d700 (LWP 45555)]
+
+Thread 9 "mongod" hit Breakpoint 1, __wt_evict_thread_run (session=0x5593699f3288, thread=0x559369972860) at src/third_party/wiredtiger/src/evict/evict_lru.c:271
+271	{
+Note: breakpoint 3 also set at pc 0x55934bb5e070.
+Breakpoint 5 at 0x55934bb5e070: file src/third_party/wiredtiger/src/btree/row_key.c, line 111.
+Continuing.
+[Switching to Thread 0x7f61fc220700 (LWP 45611)]
+
+Thread 35 "conn9" hit Breakpoint 2, __wt_reconcile (session=session@entry=0x5593699f5748, ref=ref@entry=0x55937e7a8c40, salvage=salvage@entry=0x0, flags=flags@entry=162, lookaside_retryp=0x0) at src/third_party/wiredtiger/src/reconcile/rec_write.c:34
+34	{
+Continuing.
+[Switching to Thread 0x7f61fc523700 (LWP 45614)]
+
+Thread 38 "conn12" hit Breakpoint 3, __wt_row_leaf_key_copy (session=session@entry=0x5593699f6510, page=page@entry=0x5593837df000, rip=rip@entry=0x5593837df058, key=0x5593ebf58ef0) at src/third_party/wiredtiger/src/btree/row_key.c:111
+111	{
+Continuing.
+[Switching to Thread 0x7f61fd727700 (LWP 45578)]
+
+Thread 31 "Logical.cheReap" hit Breakpoint 2, __wt_reconcile (session=session@entry=0x5593699f6e40, ref=ref@entry=0x559377729c40, salvage=salvage@entry=0x0, flags=flags@entry=162, lookaside_retryp=0x0) at src/third_party/wiredtiger/src/reconcile/rec_write.c:34
+34	{
+Continuing.
+[Switching to Thread 0x7f61fc321700 (LWP 45612)]
+
+Thread 36 "conn10" hit Breakpoint 3, __wt_row_leaf_key_copy (session=session@entry=0x5593699f44e8, page=page@entry=0x5593a47ed000, rip=rip@entry=0x5593a47ed058, key=0x55937b3520b0) at src/third_party/wiredtiger/src/btree/row_key.c:111
+111	{
+Continuing.
+[Switching to Thread 0x7f61fdf28700 (LWP 45577)]
+
+Thread 30 "Logical.Refresh" hit Breakpoint 2, __wt_reconcile (session=session@entry=0x5593699f69a8, ref=ref@entry=0x55938f286480, salvage=salvage@entry=0x0, flags=flags@entry=162, lookaside_retryp=0x0) at src/third_party/wiredtiger/src/reconcile/rec_write.c:34
+34	{
+Continuing.
+[Switching to Thread 0x7f6200f2e700 (LWP 45571)]
+
+Thread 24 "TTLMonitor" hit Breakpoint 2, __wt_reconcile (session=session@entry=0x5593699f4980, ref=ref@entry=0x55937c91edc0, salvage=salvage@entry=0x0, flags=flags@entry=162, lookaside_retryp=0x0) at src/third_party/wiredtiger/src/reconcile/rec_write.c:34
+34	{
+Continuing.
+[Switching to Thread 0x7f61fc624700 (LWP 45610)]
+
+Thread 34 "conn8" hit Breakpoint 3, __wt_row_leaf_key_copy (session=session@entry=0x5593699f6078, page=page@entry=0x55938e955000, rip=rip@entry=0x55938e956330, key=0x5593ba86a060) at src/third_party/wiredtiger/src/btree/row_key.c:111
+111	{
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x000055934baaa2d0 in __wt_evict_thread_run at src/third_party/wiredtiger/src/evict/evict_lru.c:271
+	breakpoint already hit 1 time
+2       breakpoint     keep y   0x000055934bacf0d0 in __wt_reconcile at src/third_party/wiredtiger/src/reconcile/rec_write.c:34
+	breakpoint already hit 7 times
+3       breakpoint     keep y   0x000055934bb5e070 in __wt_row_leaf_key_copy at src/third_party/wiredtiger/src/btree/row_key.c:111
+	breakpoint already hit 9 times
+5       breakpoint     keep y   0x000055934bb5e070 in __wt_row_leaf_key_copy at src/third_party/wiredtiger/src/btree/row_key.c:111
+	stop only if key->size==0 && key->data==0
+	breakpoint already hit 3 times
+#0  __wt_row_leaf_key_copy (session=session@entry=0x5593699f6078, page=page@entry=0x55938e955000, rip=rip@entry=0x55938e956330, key=0x5593ba86a060) at src/third_party/wiredtiger/src/btree/row_key.c:111
+#1  0x000055934bbc1825 in __wt_rec_row_leaf (session=session@entry=0x5593699f6078, r=r@entry=0x55936e819800, pageref=pageref@entry=0x55937e502400, salvage=salvage@entry=0x0) at src/third_party/wiredtiger/src/reconcile/rec_row.c:947
+#2  0x000055934bacf681 in __reconcile (page_lockedp=<synthetic pointer>, lookaside_retryp=0x0, flags=162, salvage=0x0, ref=0x55937e502400, session=0x5593699f6078) at src/third_party/wiredtiger/src/reconcile/rec_write.c:191
+#3  __wt_reconcile (session=session@entry=0x5593699f6078, ref=ref@entry=0x55937e502400, salvage=salvage@entry=0x0, flags=flags@entry=162, lookaside_retryp=<optimized out>) at src/third_party/wiredtiger/src/reconcile/rec_write.c:102
+#4  0x000055934baae7a3 in __evict_review (inmem_splitp=<synthetic pointer>, evict_flags=0, ref=0x55937e502400, session=0x5593699f6078) at src/third_party/wiredtiger/src/evict/evict_page.c:680
+#5  __wt_evict (session=session@entry=0x5593699f6078, ref=ref@entry=0x55937e502400, previous_state=previous_state@entry=5, flags=flags@entry=0) at src/third_party/wiredtiger/src/evict/evict_page.c:149
+#6  0x000055934baa7b96 in __evict_page (session=0x5593699f6078, is_server=<optimized out>) at src/third_party/wiredtiger/src/evict/evict_lru.c:2246
+#7  0x000055934baa91e5 in __wt_cache_eviction_worker (session=session@entry=0x5593699f6078, busy=<optimized out>, readonly=readonly@entry=false, pct_full=<optimized out>) at src/third_party/wiredtiger/src/evict/evict_lru.c:2335
+#8  0x000055934bafc84d in __wt_cache_eviction_check (busy=false, readonly=false, didworkp=0x0, didworkp=0x0, readonly=false, busy=false, session=0x5593699f6078) at src/third_party/wiredtiger/src/include/cache.i:429
+#9  __wt_txn_commit (session=session@entry=0x5593699f6078, cfg=cfg@entry=0x7f61fc620c70) at src/third_party/wiredtiger/src/txn/txn.c:1026
+#10 0x000055934badcce7 in __session_commit_transaction (wt_session=wt_session@entry=0x5593699f6078, config=<optimized out>) at src/third_party/wiredtiger/src/session/session_api.c:1658
+#11 0x000055934ba75ee1 in mongo::WiredTigerRecoveryUnit::_txnClose (this=0x55936e9a8c80, commit=<optimized out>) at /usr/include/c++/9/bits/basic_string.h:2304
+#12 0x000055934ba767ad in mongo::WiredTigerRecoveryUnit::_commit (this=0x55936e9a8c80) at src/mongo/db/storage/wiredtiger/wiredtiger_recovery_unit.cpp:206
+#13 0x000055934ba767ff in mongo::WiredTigerRecoveryUnit::commitUnitOfWork (this=<optimized out>) at src/mongo/db/storage/wiredtiger/wiredtiger_recovery_unit.cpp:285
+#14 0x000055934d599264 in mongo::WriteUnitOfWork::commit (this=this@entry=0x7f61fc621020) at /usr/include/c++/9/bits/unique_ptr.h:360
+#15 0x000055934c428015 in mongo::UpdateStage::transformAndUpdate (this=0x55936ea19780, oldObj=..., recordId=...) at src/mongo/db/exec/update_stage.cpp:371
+#16 0x000055934c4290fc in mongo::UpdateStage::doWork (this=0x55936ea19780, out=0x7f61fc6212b0) at src/mongo/db/exec/update_stage.cpp:782
+#17 0x000055934c404388 in mongo::PlanStage::work (this=0x55936ea19780, out=out@entry=0x7f61fc6212b0) at src/mongo/db/exec/plan_stage.cpp:47
+#18 0x000055934c452ca3 in mongo::PlanExecutorImpl::_getNextImpl (this=0x55936f1b2480, objOut=0x7f61fc6213b0, dlOut=<optimized out>) at /usr/include/c++/9/bits/unique_ptr.h:360
+#19 0x000055934c453411 in mongo::PlanExecutorImpl::getNext (this=<optimized out>, objOut=0x7f61fc621400, dlOut=<optimized out>) at src/mongo/db/query/plan_executor_impl.cpp:381
+#20 0x000055934c4536fd in mongo::PlanExecutorImpl::executePlan (this=0x55936f1b2480) at src/mongo/db/query/plan_executor_impl.cpp:643
+#21 0x000055934c13d2db in mongo::performSingleUpdateOp (stmtId=<optimized out>, updateRequest=..., ns=..., opCtx=0x5593eef307c0) at /usr/include/c++/9/bits/unique_ptr.h:360
+#22 mongo::performSingleUpdateOpWithDupKeyRetry (runtimeConstants=..., op=..., stmtId=<optimized out>, ns=..., opCtx=0x5593eef307c0) at src/mongo/db/ops/write_ops_exec.cpp:721
+#23 mongo::performUpdates (opCtx=opCtx@entry=0x5593eef307c0, wholeOp=...) at src/mongo/db/ops/write_ops_exec.cpp:797
+#24 0x000055934c12ef91 in mongo::(anonymous namespace)::CmdUpdate::Invocation::runImpl (this=0x55938cd4ca80, opCtx=0x5593eef307c0, result=...) at src/mongo/db/commands/write_commands/write_commands.cpp:345
+#25 0x000055934c12cbfb in mongo::(anonymous namespace)::WriteCommand::InvocationBase::run (this=0x55938cd4ca80, opCtx=0x5593eef307c0, result=0x5593bfffdc20) at src/mongo/db/commands/write_commands/write_commands.cpp:236
+#26 0x000055934bdfeaeb in mongo::(anonymous namespace)::runCommandImpl (opCtx=<optimized out>, invocation=0x55938cd4ca80, request=..., replyBuilder=0x5593bfffdc20, startOperationTime=..., behaviors=..., extraFieldsBuilder=0x7f61fc6227e0, sessionOptions=...) at src/mongo/db/service_entry_point_common.cpp:560
+#27 0x000055934bdfffbf in mongo::(anonymous namespace)::execCommandDatabase (opCtx=<optimized out>, command=<optimized out>, request=..., replyBuilder=<optimized out>, behaviors=...) at /usr/include/c++/9/bits/unique_ptr.h:360
+#28 0x000055934be0158e in mongo::(anonymous namespace)::<lambda()>::operator() (__closure=<optimized out>) at /usr/include/c++/9/bits/unique_ptr.h:360
+#29 mongo::(anonymous namespace)::receivedCommands (opCtx=<optimized out>, message=..., behaviors=...) at src/mongo/db/service_entry_point_common.cpp:1039
+#30 0x000055934be02407 in mongo::ServiceEntryPointCommon::handleRequest (opCtx=0x5593eef307c0, m=..., behaviors=...) at src/mongo/db/service_entry_point_common.cpp:1324
+#31 0x000055934bdef100 in mongo::ServiceEntryPointMongod::handleRequest (this=<optimized out>, opCtx=<optimized out>, m=...) at src/mongo/db/service_entry_point_common.h:59
+#32 0x000055934bdfad97 in mongo::ServiceStateMachine::_processMessage (this=0x55936e722a90, guard=...) at /usr/include/c++/9/bits/unique_ptr.h:360
+#33 0x000055934bdf64ff in mongo::ServiceStateMachine::_runNextInGuard (this=0x55936e722a90, guard=...) at src/mongo/transport/service_state_machine.cpp:192
+#34 0x000055934bdf9aaa in mongo::ServiceStateMachine::<lambda()>::operator() (__closure=0x55937de3ddc0) at src/mongo/transport/service_state_machine.cpp:192
+#35 std::_Function_handler<void(), mongo::ServiceStateMachine::_scheduleNextWithGuard(mongo::ServiceStateMachine::ThreadGuard, mongo::transport::ServiceExecutor::ScheduleFlags, mongo::transport::ServiceExecutorTaskName, mongo::ServiceStateMachine::Ownership)::<lambda()> >::_M_invoke(const std::_Any_data &) (__functor=...) at /usr/include/c++/9/bits/std_function.h:300
+#36 0x000055934cd79ba2 in std::function<void ()>::operator()() const (this=0x7f61fc623410) at /usr/include/c++/9/bits/std_function.h:683
+#37 mongo::transport::ServiceExecutorSynchronous::schedule(std::function<void ()>, mongo::transport::ServiceExecutor::ScheduleFlags, mongo::transport::ServiceExecutorTaskName) (this=this@entry=0x55936978f440, task=..., flags=flags@entry=mongo::transport::ServiceExecutor::kMayRecurse, taskName=taskName@entry=mongo::transport::ServiceExecutorTaskName::kSSMProcessMessage) at src/mongo/transport/service_executor_synchronous.cpp:107
+#38 0x000055934bdf405f in mongo::ServiceStateMachine::_scheduleNextWithGuard (this=0x55936e722a90, guard=..., flags=<optimized out>, taskName=mongo::transport::ServiceExecutorTaskName::kSSMProcessMessage, ownershipModel=<optimized out>) at /usr/include/c++/9/bits/std_function.h:87
+#39 0x000055934bdf71fd in mongo::ServiceStateMachine::_sourceCallback (this=0x55936e722a90, status=...) at src/mongo/transport/service_state_machine.cpp:192
+#40 0x000055934bdf581f in mongo::ServiceStateMachine::<lambda(mongo::StatusWith<mongo::Message>)>::operator() (__closure=<optimized out>, msg=...) at /usr/include/c++/9/bits/atomic_base.h:539
+#41 mongo::future_details::call<mongo::ServiceStateMachine::_sourceMessage(mongo::ServiceStateMachine::ThreadGuard)::<lambda(mongo::StatusWith<mongo::Message>)>&, mongo::StatusWith<mongo::Message> > (arg=..., func=...) at src/mongo/util/future_impl.h:197
+#42 mongo::future_details::FutureImpl<mongo::Message>::<lambda(mongo::Message&&)>::operator() (this=<optimized out>, val=...) at src/mongo/util/future_impl.h:816
+#43 mongo::future_details::FutureImpl<mongo::Message>::generalImpl<mongo::future_details::FutureImpl<T>::getAsync(Func&&) && [with Func = mongo::ServiceStateMachine::_sourceMessage(mongo::ServiceStateMachine::ThreadGuard)::<lambda(mongo::StatusWith<mongo::Message>)>; T = mongo::Message]::<lambda(mongo::Message&&)>, mongo::future_details::FutureImpl<T>::getAsync(Func&&) && [with Func = mongo::ServiceStateMachine::_sourceMessage(mongo::ServiceStateMachine::ThreadGuard)::<lambda(mongo::StatusWith<mongo::Message>)>; T = mongo::Message]::<lambda(mongo::Status&&)>, mongo::future_details::FutureImpl<T>::getAsync(Func&&) && [with Func = mongo::ServiceStateMachine::_sourceMessage(mongo::ServiceStateMachine::ThreadGuard)::<lambda(mongo::StatusWith<mongo::Message>)>; T = mongo::Message]::<lambda()> > (notReady=..., fail=..., success=..., this=0x7f61fc623610) at src/mongo/util/future_impl.h:1131
+#44 mongo::future_details::FutureImpl<mongo::Message>::getAsync<mongo::ServiceStateMachine::_sourceMessage(mongo::ServiceStateMachine::ThreadGuard)::<lambda(mongo::StatusWith<mongo::Message>)> > (func=..., this=0x7f61fc623610) at src/mongo/util/future_impl.h:830
+#45 mongo::Future<mongo::Message>::getAsync<mongo::ServiceStateMachine::_sourceMessage(mongo::ServiceStateMachine::ThreadGuard)::<lambda(mongo::StatusWith<mongo::Message>)> > (func=..., this=0x7f61fc623610) at src/mongo/util/future.h:348
+#46 mongo::ServiceStateMachine::_sourceMessage (this=0x55936e722a90, guard=...) at src/mongo/transport/service_state_machine.cpp:313
+#47 0x000055934bdf645b in mongo::ServiceStateMachine::_runNextInGuard (this=0x55936e722a90, guard=...) at src/mongo/transport/service_state_machine.cpp:192
+#48 0x000055934bdf9aaa in mongo::ServiceStateMachine::<lambda()>::operator() (__closure=0x55937de3e440) at src/mongo/transport/service_state_machine.cpp:192
+#49 std::_Function_handler<void(), mongo::ServiceStateMachine::_scheduleNextWithGuard(mongo::ServiceStateMachine::ThreadGuard, mongo::transport::ServiceExecutor::ScheduleFlags, mongo::transport::ServiceExecutorTaskName, mongo::ServiceStateMachine::Ownership)::<lambda()> >::_M_invoke(const std::_Any_data &) (__functor=...) at /usr/include/c++/9/bits/std_function.h:300
+#50 0x000055934cd7a0b8 in std::function<void ()>::operator()() const (this=<optimized out>) at /usr/include/c++/9/bits/std_function.h:683
+#51 mongo::transport::ServiceExecutorSynchronous::<lambda()>::operator() (__closure=0x5593bfffccc0) at src/mongo/transport/service_executor_synchronous.cpp:124
+#52 std::_Function_handler<void(), mongo::transport::ServiceExecutorSynchronous::schedule(mongo::transport::ServiceExecutor::Task, mongo::transport::ServiceExecutor::ScheduleFlags, mongo::transport::ServiceExecutorTaskName)::<lambda()> >::_M_invoke(const std::_Any_data &) (__functor=...) at /usr/include/c++/9/bits/std_function.h:300
+#53 0x000055934d412369 in std::function<void ()>::operator()() const (this=0x5593869197e0) at /usr/include/c++/9/bits/std_function.h:683
+#54 mongo::(anonymous namespace)::runFunc (ctx=0x5593869197e0) at src/mongo/transport/service_entry_point_utils.cpp:56
+#55 0x00007f620cdfa609 in start_thread (arg=<optimized out>) at pthread_create.c:477
+#56 0x00007f620cd1f353 in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+#0  __wt_row_leaf_key_copy (session=session@entry=0x5593699f6078, page=page@entry=0x55938e955000, rip=rip@entry=0x55938e956330, key=0x5593ba86a060) at src/third_party/wiredtiger/src/btree/row_key.c:111
+111	{
+session = 0x5593699f6078
+page = 0x55938e955000
+rip = 0x55938e956330
+key = 0x5593ba86a060
+$9 = 0
+$10 = (const void *) 0x0
+106	 * __wt_row_leaf_key_copy --
+107	 *     Get a copy of a row-store leaf-page key.
+108	 */
+109	int
+110	__wt_row_leaf_key_copy(WT_SESSION_IMPL *session, WT_PAGE *page, WT_ROW *rip, WT_ITEM *key)
+111	{
+112	    WT_RET(__wt_row_leaf_key(session, page, rip, key, false));
+113	
+114	    /* The return buffer may only hold a reference to a key, copy it. */
+115	    if (!WT_DATA_IN_ITEM(key))
+$11 = (size_t *) 0x55937cc154d8
+Continuing.
+[Switching to Thread 0x7f6208f3e700 (LWP 45554)]
+
+Thread 8 "mongod" hit Breakpoint 5, __wt_row_leaf_key_copy (session=session@entry=0x5593699f2df0, page=page@entry=0x5593b9dd0000, rip=rip@entry=0x5593b9dd21d0, key=0x559395c0b320) at src/third_party/wiredtiger/src/btree/row_key.c:111
+111	{
+Hardware watchpoint 6: -location *$ks
+Continuing.
+[Switching to Thread 0x7f61fd727700 (LWP 45578)]
+
+Thread 31 "Logical.cheReap" hit Breakpoint 5, __wt_row_leaf_key_copy (session=session@entry=0x5593699f6e40, page=page@entry=0x5593db691000, rip=rip@entry=0x5593db691058, key=0x55936e6ca030) at src/third_party/wiredtiger/src/btree/row_key.c:111
+111	{
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x000055934baaa2d0 in __wt_evict_thread_run at src/third_party/wiredtiger/src/evict/evict_lru.c:271
+	breakpoint already hit 1 time
+2       breakpoint     keep y   0x000055934bacf0d0 in __wt_reconcile at src/third_party/wiredtiger/src/reconcile/rec_write.c:34
+	breakpoint already hit 7 times
+3       breakpoint     keep n   0x000055934bb5e070 in __wt_row_leaf_key_copy at src/third_party/wiredtiger/src/btree/row_key.c:111
+	breakpoint already hit 9 times
+5       breakpoint     keep y   0x000055934bb5e070 in __wt_row_leaf_key_copy at src/third_party/wiredtiger/src/btree/row_key.c:111
+	stop only if key->size==0 && key->data==0
+	breakpoint already hit 5 times
+6       hw watchpoint  keep y                      -location *$ks
+Undefined command: "".  Try "help".
+Undefined command: "$11".  Try "help".
+Undefined command: "".  Try "help".
+Undefined command: "Continuing.".  Try "help".
+Undefined command: "".  Try "help".
+Undefined command: "".  Try "help".
+Undefined command: "Thread".  Try "help".
+Undefined command: "111".  Try "help".
+Undefined command: "".  Try "help".
+Undefined command: "".  Try "help".
+Undefined command: "Hardware".  Try "help".
+Undefined command: "".  Try "help".
+Undefined command: "Continuing.".  Try "help".
+Undefined command: "".  Try "help".
+Undefined command: "".  Try "help".
+Undefined command: "Thread".  Try "help".
+Undefined command: "11".  Try "help".
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x000055934baaa2d0 in __wt_evict_thread_run at src/third_party/wiredtiger/src/evict/evict_lru.c:271
+	breakpoint already hit 1 time
+2       breakpoint     keep y   0x000055934bacf0d0 in __wt_reconcile at src/third_party/wiredtiger/src/reconcile/rec_write.c:34
+	breakpoint already hit 7 times
+3       breakpoint     keep n   0x000055934bb5e070 in __wt_row_leaf_key_copy at src/third_party/wiredtiger/src/btree/row_key.c:111
+	breakpoint already hit 9 times
+5       breakpoint     keep y   0x000055934bb5e070 in __wt_row_leaf_key_copy at src/third_party/wiredtiger/src/btree/row_key.c:111
+	stop only if key->size==0 && key->data==0
+	breakpoint already hit 5 times
+Breakpoint 7 at 0x55934bb5ad80: file src/third_party/wiredtiger/src/btree/row_key.c, line 129.
+Continuing.
+[Switching to Thread 0x7f620773b700 (LWP 45557)]
+
+Thread 11 "mongod" hit Breakpoint 5, __wt_row_leaf_key_copy (session=session@entry=0x5593699f3bb8, page=page@entry=0x559391740000, rip=rip@entry=0x559391740550, key=0x55938ab94440) at src/third_party/wiredtiger/src/btree/row_key.c:111
+111	{
+Continuing.
+[Switching to Thread 0x7f61fc422700 (LWP 45613)]
+
+Thread 37 "conn11" hit Breakpoint 2, __wt_reconcile (session=session@entry=0x5593699f5be0, ref=ref@entry=0x55937e502380, salvage=salvage@entry=0x0, flags=flags@entry=162, lookaside_retryp=0x0) at src/third_party/wiredtiger/src/reconcile/rec_write.c:34
+34	{
+Continuing.
+[Switching to Thread 0x7f6207f3c700 (LWP 45556)]
+
+Thread 10 "mongod" hit Breakpoint 5, __wt_row_leaf_key_copy (session=session@entry=0x5593699f3720, page=page@entry=0x5593d8962000, rip=rip@entry=0x5593d8962f88, key=0x55937cc154d0) at src/third_party/wiredtiger/src/btree/row_key.c:111
+111	{
+Continuing.
+[Switching to Thread 0x7f6200f2e700 (LWP 45571)]
+
+Thread 24 "TTLMonitor" hit Breakpoint 5, __wt_row_leaf_key_copy (session=session@entry=0x5593699f4980, page=page@entry=0x5593e0205000, rip=rip@entry=0x5593e0205058, key=0x559369728270) at src/third_party/wiredtiger/src/btree/row_key.c:111
+111	{
+Continuing.
+[Switching to Thread 0x7f6208f3e700 (LWP 45554)]
+
+Thread 8 "mongod" hit Breakpoint 7, __wt_row_leaf_key_work (session=0x5593699f2df0, page=0x5593b9dd0000, rip_arg=0x5593b9dd21d0, keyb=0x559395c0b320, instantiate=false) at src/third_party/wiredtiger/src/btree/row_key.c:129
+129	{
+session = 0x5593699f2df0
+page = 0x5593b9dd0000
+rip_arg = 0x5593b9dd21d0
+keyb = 0x559395c0b320
+instantiate = false
+$12 = (WT_ITEM *) 0x559395c0b320
+Attempt to extract a component of a value that is not a structure pointer.
+$13 = 0
+124	 *     in-memory page.
+125	 */
+126	int
+127	__wt_row_leaf_key_work(
+128	  WT_SESSION_IMPL *session, WT_PAGE *page, WT_ROW *rip_arg, WT_ITEM *keyb, bool instantiate)
+129	{
+130	    enum { FORWARD, BACKWARD } direction;
+131	    WT_BTREE *btree;
+132	    WT_CELL *cell;
+133	    WT_CELL_UNPACK *unpack, _unpack;
+129	{
+130	    enum { FORWARD, BACKWARD } direction;
+131	    WT_BTREE *btree;
+132	    WT_CELL *cell;
+133	    WT_CELL_UNPACK *unpack, _unpack;
+134	    WT_DECL_ITEM(tmp);
+135	    WT_DECL_RET;
+136	    WT_IKEY *ikey;
+137	    WT_ROW *rip, *jump_rip;
+138	    size_t size;
+139	#ifdef HAVE_DIAGNOSTIC
+140	    uint32_t current, start;
+141	#endif
+142	    u_int last_prefix;
+143	    int jump_slot_offset, slot_offset;
+144	    void *copy;
+145	    const void *p;
+146	
+147	    /*
+148	     * !!!
+149	     * It is unusual to call this function: most code should be calling the
+150	     * front-end, __wt_row_leaf_key, be careful if you're calling this code
+151	     * directly.
+152	     */
+153	
+154	    btree = S2BT(session);
+155	    unpack = &_unpack;
+156	    rip = rip_arg;
+157	
+158	    jump_rip = NULL;
+159	    jump_slot_offset = 0;
+160	    last_prefix = 0;
+161	
+162	    p = NULL; /* -Werror=maybe-uninitialized */
+163	    size = 0; /* -Werror=maybe-uninitialized */
+164	
+165	    direction = BACKWARD;
+166	#ifdef HAVE_DIAGNOSTIC
+167	    __wt_seconds32(session, &start);
+168	#endif
+169	    for (slot_offset = 0;;) {
+170	        if (0) {
+171	        switch_and_jump:
+172	            /* Switching to a forward roll. */
+173	            WT_ASSERT(session, direction == BACKWARD);
+174	            direction = FORWARD;
+175	
+176	            /* Skip list of keys with compatible prefixes. */
+177	            rip = jump_rip;
+178	            slot_offset = jump_slot_offset;
+179	        }
+180	        copy = WT_ROW_KEY_COPY(rip);
+181	#ifdef HAVE_DIAGNOSTIC
+182	        /*
+183	         * Debugging added to detect and gather information for rare hang. Detect and abort if the
+184	         * current operation takes too long.
+185	         */
+186	        __wt_seconds32(session, &current);
+187	        WT_ERR_ASSERT(session, (current - start) < WT_MINUTE * 5, EINVAL,
+188	          "Current function call taking too long: current %" PRIu32 " func started %" PRIu32,
+189	          current, start);
+190	        WT_ERR_ASSERT(session,
+191	          session->op_start == 0 || ((current - session->op_start) < WT_MINUTE * 5), EINVAL,
+192	          "Operation taking too long: current %" PRIu32 " started %" PRIu32, current,
+193	          session->op_start);
+194	#endif
+195	
+196	        /*
+197	         * Figure out what the key looks like.
+198	         */
+199	        WT_IGNORE_RET_BOOL(__wt_row_leaf_key_info(page, copy, &ikey, &cell, &p, &size));
+200	
+201	        /* 1: the test for a directly referenced on-page key. */
+202	        if (cell == NULL) {
+203	            keyb->data = p;
+204	            keyb->size = size;
+205	
+206	            /*
+207	             * If this is the key we originally wanted, we don't
+208	             * care if we're rolling forward or backward, or if
+209	             * it's an overflow key or not, it's what we wanted.
+210	             * This shouldn't normally happen, the fast-path code
+211	             * that front-ends this function will have figured it
+212	             * out before we were called.
+213	             *
+214	             * The key doesn't need to be instantiated, skip past
+215	             * that test.
+216	             */
+217	            if (slot_offset == 0)
+218	                goto done;
+219	
+220	            /*
+129	{
+130	    enum { FORWARD, BACKWARD } direction;
+131	    WT_BTREE *btree;
+132	    WT_CELL *cell;
+133	    WT_CELL_UNPACK *unpack, _unpack;
+134	    WT_DECL_ITEM(tmp);
+135	    WT_DECL_RET;
+136	    WT_IKEY *ikey;
+137	    WT_ROW *rip, *jump_rip;
+138	    size_t size;
+139	#ifdef HAVE_DIAGNOSTIC
+140	    uint32_t current, start;
+141	#endif
+142	    u_int last_prefix;
+143	    int jump_slot_offset, slot_offset;
+144	    void *copy;
+145	    const void *p;
+146	
+147	    /*
+148	     * !!!
+149	     * It is unusual to call this function: most code should be calling the
+150	     * front-end, __wt_row_leaf_key, be careful if you're calling this code
+151	     * directly.
+152	     */
+153	
+154	    btree = S2BT(session);
+155	    unpack = &_unpack;
+156	    rip = rip_arg;
+157	
+158	    jump_rip = NULL;
+159	    jump_slot_offset = 0;
+160	    last_prefix = 0;
+160	    last_prefix = 0;
+161	
+162	    p = NULL; /* -Werror=maybe-uninitialized */
+163	    size = 0; /* -Werror=maybe-uninitialized */
+164	
+165	    direction = BACKWARD;
+166	#ifdef HAVE_DIAGNOSTIC
+167	    __wt_seconds32(session, &start);
+168	#endif
+169	    for (slot_offset = 0;;) {
+170	        if (0) {
+171	        switch_and_jump:
+172	            /* Switching to a forward roll. */
+173	            WT_ASSERT(session, direction == BACKWARD);
+174	            direction = FORWARD;
+175	
+176	            /* Skip list of keys with compatible prefixes. */
+177	            rip = jump_rip;
+178	            slot_offset = jump_slot_offset;
+179	        }
+180	        copy = WT_ROW_KEY_COPY(rip);
+181	#ifdef HAVE_DIAGNOSTIC
+182	        /*
+183	         * Debugging added to detect and gather information for rare hang. Detect and abort if the
+184	         * current operation takes too long.
+185	         */
+186	        __wt_seconds32(session, &current);
+187	        WT_ERR_ASSERT(session, (current - start) < WT_MINUTE * 5, EINVAL,
+188	          "Current function call taking too long: current %" PRIu32 " func started %" PRIu32,
+189	          current, start);
+190	        WT_ERR_ASSERT(session,
+Undefined command: "129".  Try "help".
+129	{
+130	    enum { FORWARD, BACKWARD } direction;
+131	    WT_BTREE *btree;
+132	    WT_CELL *cell;
+133	    WT_CELL_UNPACK *unpack, _unpack;
+134	    WT_DECL_ITEM(tmp);
+135	    WT_DECL_RET;
+136	    WT_IKEY *ikey;
+137	    WT_ROW *rip, *jump_rip;
+138	    size_t size;
+139	#ifdef HAVE_DIAGNOSTIC
+140	    uint32_t current, start;
+141	#endif
+142	    u_int last_prefix;
+143	    int jump_slot_offset, slot_offset;
+144	    void *copy;
+145	    const void *p;
+146	
+147	    /*
+148	     * !!!
+149	     * It is unusual to call this function: most code should be calling the
+150	     * front-end, __wt_row_leaf_key, be careful if you're calling this code
+150	     * front-end, __wt_row_leaf_key, be careful if you're calling this code
+151	     * directly.
+152	     */
+153	
+154	    btree = S2BT(session);
+155	    unpack = &_unpack;
+156	    rip = rip_arg;
+157	
+158	    jump_rip = NULL;
+159	    jump_slot_offset = 0;
+160	    last_prefix = 0;
+161	
+162	    p = NULL; /* -Werror=maybe-uninitialized */
+163	    size = 0; /* -Werror=maybe-uninitialized */
+164	
+165	    direction = BACKWARD;
+166	#ifdef HAVE_DIAGNOSTIC
+167	    __wt_seconds32(session, &start);
+168	#endif
+169	    for (slot_offset = 0;;) {
+170	        if (0) {
+171	        switch_and_jump:
+172	            /* Switching to a forward roll. */
+173	            WT_ASSERT(session, direction == BACKWARD);
+174	            direction = FORWARD;
+175	
+176	            /* Skip list of keys with compatible prefixes. */
+177	            rip = jump_rip;
+178	            slot_offset = jump_slot_offset;
+179	        }
+180	        copy = WT_ROW_KEY_COPY(rip);
+direction = <optimized out>
+btree = <optimized out>
+cell = <optimized out>
+unpack = <optimized out>
+_unpack = {cell = 0x5593c4064a39, v = 0, start_ts = 0, start_txn = 0, stop_ts = 18446744073709551615, stop_txn = 18446744073709551605, newest_durable_ts = 0, oldest_start_ts = 0, oldest_start_txn = 0, newest_stop_ts = 0, newest_stop_txn = 140059033719456, data = 0x5593b9dd21d0, size = 3118268416, __len = 21907, prefix = 0 '\000', raw = 0 '\000', type = 0 '\000', ovfl = 0 '\000'}
+tmp = 0x0
+ret = <optimized out>
+ikey = 0x0
+rip = <optimized out>
+jump_rip = <optimized out>
+size = <optimized out>
+last_prefix = <optimized out>
+jump_slot_offset = <optimized out>
+slot_offset = <optimized out>
+copy = <optimized out>
+p = <optimized out>
+type = unsigned long
+180	        copy = WT_ROW_KEY_COPY(rip);
+181	#ifdef HAVE_DIAGNOSTIC
+182	        /*
+183	         * Debugging added to detect and gather information for rare hang. Detect and abort if the
+184	         * current operation takes too long.
+185	         */
+186	        __wt_seconds32(session, &current);
+187	        WT_ERR_ASSERT(session, (current - start) < WT_MINUTE * 5, EINVAL,
+188	          "Current function call taking too long: current %" PRIu32 " func started %" PRIu32,
+189	          current, start);
+190	        WT_ERR_ASSERT(session,
+191	          session->op_start == 0 || ((current - session->op_start) < WT_MINUTE * 5), EINVAL,
+192	          "Operation taking too long: current %" PRIu32 " started %" PRIu32, current,
+193	          session->op_start);
+194	#endif
+195	
+196	        /*
+197	         * Figure out what the key looks like.
+198	         */
+199	        WT_IGNORE_RET_BOOL(__wt_row_leaf_key_info(page, copy, &ikey, &cell, &p, &size));
+200	
+201	        /* 1: the test for a directly referenced on-page key. */
+202	        if (cell == NULL) {
+203	            keyb->data = p;
+204	            keyb->size = size;
+205	
+206	            /*
+207	             * If this is the key we originally wanted, we don't
+208	             * care if we're rolling forward or backward, or if
+209	             * it's an overflow key or not, it's what we wanted.
+210	             * This shouldn't normally happen, the fast-path code
+Breakpoint 8 at 0x55934bb5aeea: file src/third_party/wiredtiger/src/btree/row_key.c, line 204.
+Type commands for breakpoint(s) 8, one per line.
+End with a line saying just "end".
+Hardware watchpoint 9: -location keyb->size
+Continuing.
+[Switching to Thread 0x7f620773b700 (LWP 45557)]
+
+Thread 11 "mongod" hit Breakpoint 7, __wt_row_leaf_key_work (session=0x5593699f3bb8, page=0x559391740000, rip_arg=0x559391740550, keyb=0x55938ab94440, instantiate=false) at src/third_party/wiredtiger/src/btree/row_key.c:129
+129	{
+Continuing.
+[Switching to Thread 0x7f6207f3c700 (LWP 45556)]
+
+Thread 10 "mongod" hit Breakpoint 7, __wt_row_leaf_key_work (session=0x5593699f3720, page=0x5593d8962000, rip_arg=0x5593d8962f88, keyb=0x55937cc154d0, instantiate=false) at src/third_party/wiredtiger/src/btree/row_key.c:129
+129	{
+Continuing.
+[Switching to Thread 0x7f620773b700 (LWP 45557)]
+
+Thread 11 "mongod" hit Breakpoint 5, __wt_row_leaf_key_copy (session=session@entry=0x5593699f3bb8, page=page@entry=0x559391740000, rip=rip@entry=0x559391740558, key=0x55938ab94440) at src/third_party/wiredtiger/src/btree/row_key.c:111
+111	{
+Continuing.
+[Switching to Thread 0x7f6208f3e700 (LWP 45554)]
+
+Thread 8 "mongod" hit Hardware watchpoint 9: -location keyb->size
+
+Old value = 0
+New value = 32
+__wt_row_leaf_key_work (session=0x5593699f2df0, page=<optimized out>, rip_arg=0x5593b9dd21d0, keyb=0x559395c0b320, instantiate=<optimized out>) at src/third_party/wiredtiger/src/btree/row_key.c:421
+421	        switch (direction) {
+400	            }
+401	
+402	            /*
+403	             * Grow the buffer as necessary as well as ensure data
+404	             * has been copied into local buffer space, then append
+405	             * the suffix to the prefix already in the buffer.
+406	             *
+407	             * Don't grow the buffer unnecessarily or copy data we
+408	             * don't need, truncate the item's data length to the
+409	             * prefix bytes.
+410	             */
+411	            keyb->size = unpack->prefix;
+412	            WT_ERR(__wt_buf_grow(session, keyb, keyb->size + size));
+413	            memcpy((uint8_t *)keyb->data + keyb->size, p, size);
+414	            keyb->size += size;
+415	
+416	            if (slot_offset == 0)
+417	                break;
+418	        }
+419	
+420	next:
+421	        switch (direction) {
+422	        case BACKWARD:
+423	            --rip;
+424	            ++slot_offset;
+425	            break;
+426	        case FORWARD:
+427	            ++rip;
+428	            --slot_offset;
+429	            break;
+430	        }
+431	    }
+432	
+433	    /*
+434	     * Optionally instantiate the key: there's a cost to figuring out a key value in a leaf page
+435	     * with prefix-compressed or Huffman encoded keys, amortize the cost by instantiating a copy of
+436	     * the calculated key in allocated memory. We don't instantiate keys when pages are first
+437	     * brought into memory because it's wasted effort if the page is only read by a cursor in sorted
+438	     * order. If, instead, the page is read by a cursor in reverse order, we immediately instantiate
+439	     * periodic keys for the page (otherwise the reverse walk would be insanely slow). If, instead,
+440	     * the page is randomly searched, we instantiate keys as they are accessed (meaning, for
+Hardware watchpoint 10: -location keyb->size
+Continuing.
+[Switching to Thread 0x7f6200f2e700 (LWP 45571)]
+
+Thread 24 "TTLMonitor" hit Breakpoint 7, __wt_row_leaf_key_work (session=0x5593699f4980, page=0x5593e0205000, rip_arg=0x5593e0205058, keyb=0x559369728270, instantiate=false) at src/third_party/wiredtiger/src/btree/row_key.c:129
+129	{
+Continuing.
+[Switching to Thread 0x7f6208f3e700 (LWP 45554)]
+
+Thread 8 "mongod" hit Hardware watchpoint 9: -location keyb->size
+
+Old value = 32
+New value = 26
+
+Thread 8 "mongod" hit Hardware watchpoint 10: -location keyb->size
+
+Old value = 32
+New value = 26
+__wt_row_leaf_key_work (session=0x5593699f2df0, page=<optimized out>, rip_arg=0x5593b9dd21d0, keyb=0x559395c0b320, instantiate=<optimized out>) at src/third_party/wiredtiger/src/btree/row_key.c:412
+412	            WT_ERR(__wt_buf_grow(session, keyb, keyb->size + size));
+Continuing.
+[Switching to Thread 0x7f6207f3c700 (LWP 45556)]
+
+Thread 10 "mongod" hit Breakpoint 5, __wt_row_leaf_key_copy (session=session@entry=0x5593699f3720, page=page@entry=0x5593d8962000, rip=rip@entry=0x5593d8962f90, key=0x55937cc154d0) at src/third_party/wiredtiger/src/btree/row_key.c:111
+111	{
+Continuing.
+[Switching to Thread 0x7f620773b700 (LWP 45557)]
+
+Thread 11 "mongod" hit Breakpoint 7, __wt_row_leaf_key_work (session=0x5593699f3bb8, page=0x559391740000, rip_arg=0x559391740558, keyb=0x55938ab94440, instantiate=false) at src/third_party/wiredtiger/src/btree/row_key.c:129
+129	{
+Continuing.
+[Switching to Thread 0x7f6208f3e700 (LWP 45554)]
+
+Thread 8 "mongod" hit Hardware watchpoint 9: -location keyb->size
+
+Old value = 26
+New value = 32
+
+Thread 8 "mongod" hit Hardware watchpoint 10: -location keyb->size
+
+Old value = 26
+New value = 32
+__wt_row_leaf_key_work (session=0x5593699f2df0, page=<optimized out>, rip_arg=0x5593b9dd21d0, keyb=0x559395c0b320, instantiate=<optimized out>) at src/third_party/wiredtiger/src/btree/row_key.c:416
+416	            if (slot_offset == 0)
+Continuing.
+
+Thread 8 "mongod" hit Hardware watchpoint 9: -location keyb->size
+
+Old value = 32
+New value = 26
+
+Thread 8 "mongod" hit Hardware watchpoint 10: -location keyb->size
+
+Old value = 32
+New value = 26
+__wt_row_leaf_key_work (session=0x5593699f2df0, page=<optimized out>, rip_arg=0x5593b9dd21d0, keyb=0x559395c0b320, instantiate=<optimized out>) at src/third_party/wiredtiger/src/btree/row_key.c:412
+412	            WT_ERR(__wt_buf_grow(session, keyb, keyb->size + size));
+Continuing.
+[Switching to Thread 0x7f6200f2e700 (LWP 45571)]
+Breakpoint 11 at 0x55934bb5aeea: file src/third_party/wiredtiger/src/btree/row_key.c, line 204.
+#0  __wt_row_leaf_key_work (session=0x5593699f4980, page=<optimized out>, rip_arg=0x5593e0205058, keyb=0x559369728270, instantiate=<optimized out>) at src/third_party/wiredtiger/src/btree/row_key.c:204
+#1  0x000055934bb5e114 in __wt_row_leaf_key (instantiate=false, instantiate=false, key=0x559369728270, rip=0x5593e0205058, page=0x5593699f4980, session=0x5593699f4980) at src/third_party/wiredtiger/src/include/btree.i:988
+#2  __wt_row_leaf_key_copy (session=session@entry=0x5593699f4980, page=page@entry=0x5593e0205000, rip=rip@entry=0x5593e0205058, key=0x559369728270) at src/third_party/wiredtiger/src/btree/row_key.c:112
+[Switching to Thread 0x7f6208f3e700 (LWP 45554)]
+
+Thread 8 "mongod" hit Hardware watchpoint 9: -location keyb->size
+
+Old value = 26
+New value = 32
+
+Thread 8 "mongod" hit Hardware watchpoint 10: -location keyb->size
+
+Old value = 26
+New value = 32
+__wt_row_leaf_key_work (session=0x5593699f2df0, page=<optimized out>, rip_arg=0x5593b9dd21d0, keyb=0x559395c0b320, instantiate=<optimized out>) at src/third_party/wiredtiger/src/btree/row_key.c:416
+416	            if (slot_offset == 0)
+Continuing.
+[Switching to Thread 0x7f6207f3c700 (LWP 45556)]
+
+Thread 10 "mongod" hit Breakpoint 7, __wt_row_leaf_key_work (session=0x5593699f3720, page=0x5593d8962000, rip_arg=0x5593d8962f90, keyb=0x55937cc154d0, instantiate=false) at src/third_party/wiredtiger/src/btree/row_key.c:129
+129	{
+Continuing.
+[Switching to Thread 0x7f620773b700 (LWP 45557)]
+
+Thread 11 "mongod" hit Breakpoint 5, __wt_row_leaf_key_copy (session=session@entry=0x5593699f3bb8, page=page@entry=0x559391740000, rip=rip@entry=0x559391740560, key=0x55938ab94440) at src/third_party/wiredtiger/src/btree/row_key.c:111
+111	{
+Continuing.
+[Switching to Thread 0x7f6208f3e700 (LWP 45554)]
+
+Thread 8 "mongod" hit Hardware watchpoint 9: -location keyb->size
+
+Old value = 32
+New value = 26
+
+Thread 8 "mongod" hit Hardware watchpoint 10: -location keyb->size
+
+Old value = 32
+New value = 26
+__wt_row_leaf_key_work (session=0x5593699f2df0, page=<optimized out>, rip_arg=0x5593b9dd21d0, keyb=0x559395c0b320, instantiate=<optimized out>) at src/third_party/wiredtiger/src/btree/row_key.c:412
+412	            WT_ERR(__wt_buf_grow(session, keyb, keyb->size + size));
+Continuing.
+
+Thread 8 "mongod" hit Hardware watchpoint 9: -location keyb->size
+
+Old value = 26
+New value = 32
+
+Thread 8 "mongod" hit Hardware watchpoint 10: -location keyb->size
+
+Old value = 26
+New value = 32
+__wt_row_leaf_key_work (session=0x5593699f2df0, page=<optimized out>, rip_arg=0x5593b9dd21d0, keyb=0x559395c0b320, instantiate=<optimized out>) at src/third_party/wiredtiger/src/btree/row_key.c:416
+416	            if (slot_offset == 0)
+Continuing.
+[Switching to Thread 0x7f6200f2e700 (LWP 45571)]
+
+Thread 24 "TTLMonitor" hit Breakpoint 5, __wt_row_leaf_key_copy (session=session@entry=0x5593699f4980, page=page@entry=0x5593e0205000, rip=rip@entry=0x5593e0205060, key=0x559369728270) at src/third_party/wiredtiger/src/btree/row_key.c:111
+111	{
+Continuing.
+[Switching to Thread 0x7f6208f3e700 (LWP 45554)]
+
+Thread 8 "mongod" hit Hardware watchpoint 9: -location keyb->size
+
+Old value = 32
+New value = 26
+
+Thread 8 "mongod" hit Hardware watchpoint 10: -location keyb->size
+
+Old value = 32
+New value = 26
+__wt_row_leaf_key_work (session=0x5593699f2df0, page=<optimized out>, rip_arg=0x5593b9dd21d0, keyb=0x559395c0b320, instantiate=<optimized out>) at src/third_party/wiredtiger/src/btree/row_key.c:412
+412	            WT_ERR(__wt_buf_grow(session, keyb, keyb->size + size));
+Continuing.
+[Switching to Thread 0x7f6207f3c700 (LWP 45556)]
+
+Thread 10 "mongod" hit Breakpoint 5, __wt_row_leaf_key_copy (session=session@entry=0x5593699f3720, page=page@entry=0x5593d8962000, rip=rip@entry=0x5593d8962f98, key=0x55937cc154d0) at src/third_party/wiredtiger/src/btree/row_key.c:111
+111	{
+Continuing.
+[Switching to Thread 0x7f620773b700 (LWP 45557)]
+
+Thread 11 "mongod" hit Breakpoint 7, __wt_row_leaf_key_work (session=0x5593699f3bb8, page=0x559391740000, rip_arg=0x559391740560, keyb=0x55938ab94440, instantiate=false) at src/third_party/wiredtiger/src/btree/row_key.c:129
+129	{
+Continuing.
+[Switching to Thread 0x7f6208f3e700 (LWP 45554)]
+
+Thread 8 "mongod" hit Hardware watchpoint 9: -location keyb->size
+
+Old value = 26
+New value = 32
+
+Thread 8 "mongod" hit Hardware watchpoint 10: -location keyb->size
+
+Old value = 26
+New value = 32
+__wt_row_leaf_key_work (session=0x5593699f2df0, page=<optimized out>, rip_arg=0x5593b9dd21d0, keyb=0x559395c0b320, instantiate=<optimized out>) at src/third_party/wiredtiger/src/btree/row_key.c:416
+416	            if (slot_offset == 0)
+Continuing.
+[Switching to Thread 0x7f6200f2e700 (LWP 45571)]
+
+Thread 24 "TTLMonitor" hit Breakpoint 7, __wt_row_leaf_key_work (session=0x5593699f4980, page=0x5593e0205000, rip_arg=0x5593e0205060, keyb=0x559369728270, instantiate=false) at src/third_party/wiredtiger/src/btree/row_key.c:129
+129	{
+Continuing.
+[Switching to Thread 0x7f61fd727700 (LWP 45578)]
+
+Thread 31 "Logical.cheReap" hit Breakpoint 7, __wt_row_leaf_key_work (session=0x5593699f6e40, page=0x5593db691000, rip_arg=0x5593db691058, keyb=0x55936e6ca030, instantiate=false) at src/third_party/wiredtiger/src/btree/row_key.c:129
+129	{
+Continuing.
+[Switching to Thread 0x7f6208f3e700 (LWP 45554)]
+
+Thread 8 "mongod" hit Hardware watchpoint 9: -location keyb->size
+
+Old value = 32
+New value = 26
+
+Thread 8 "mongod" hit Hardware watchpoint 10: -location keyb->size
+
+Old value = 32
+New value = 26
+__wt_row_leaf_key_work (session=0x5593699f2df0, page=<optimized out>, rip_arg=0x5593b9dd21d0, keyb=0x559395c0b320, instantiate=<optimized out>) at src/third_party/wiredtiger/src/btree/row_key.c:412
+412	            WT_ERR(__wt_buf_grow(session, keyb, keyb->size + size));
+Continuing.
+[Switching to Thread 0x7f6207f3c700 (LWP 45556)]
+
+Thread 10 "mongod" hit Breakpoint 7, __wt_row_leaf_key_work (session=0x5593699f3720, page=0x5593d8962000, rip_arg=0x5593d8962f98, keyb=0x55937cc154d0, instantiate=false) at src/third_party/wiredtiger/src/btree/row_key.c:129
+129	{
+Continuing.
+[Switching to Thread 0x7f620773b700 (LWP 45557)]
+
+Thread 11 "mongod" hit Breakpoint 5, __wt_row_leaf_key_copy (session=session@entry=0x5593699f3bb8, page=page@entry=0x559391740000, rip=rip@entry=0x559391740570, key=0x55938ab94440) at src/third_party/wiredtiger/src/btree/row_key.c:111
+111	{
+Continuing.
+[Switching to Thread 0x7f6208f3e700 (LWP 45554)]
+
+Thread 8 "mongod" hit Hardware watchpoint 9: -location keyb->size
+
+Old value = 26
+New value = 32
+
+Thread 8 "mongod" hit Hardware watchpoint 10: -location keyb->size
+
+Old value = 26
+New value = 32
+__wt_row_leaf_key_work (session=0x5593699f2df0, page=<optimized out>, rip_arg=0x5593b9dd21d0, keyb=0x559395c0b320, instantiate=<optimized out>) at src/third_party/wiredtiger/src/btree/row_key.c:416
+416	            if (slot_offset == 0)
+Continuing.
+[Switching to Thread 0x7f6200f2e700 (LWP 45571)]
+
+Thread 24 "TTLMonitor" hit Breakpoint 11, __wt_row_leaf_key_work (session=0x5593699f4980, page=<optimized out>, rip_arg=0x5593e0205060, keyb=0x559369728270, instantiate=<optimized out>) at src/third_party/wiredtiger/src/btree/row_key.c:204
+204	            keyb->size = size;
+Breakpoint 12 at 0x55934bb5aeea: file src/third_party/wiredtiger/src/btree/row_key.c, line 204.
+#0  __wt_row_leaf_key_work (session=0x5593699f4980, page=<optimized out>, rip_arg=0x5593e0205060, keyb=0x559369728270, instantiate=<optimized out>) at src/third_party/wiredtiger/src/btree/row_key.c:204
+#1  0x000055934bb5e114 in __wt_row_leaf_key (instantiate=false, instantiate=false, key=0x559369728270, rip=0x5593e0205060, page=0x5593699f4980, session=0x5593699f4980) at src/third_party/wiredtiger/src/include/btree.i:988
+#2  __wt_row_leaf_key_copy (session=session@entry=0x5593699f4980, page=page@entry=0x5593e0205000, rip=rip@entry=0x5593e0205060, key=0x559369728270) at src/third_party/wiredtiger/src/btree/row_key.c:112
+[Switching to Thread 0x7f6208f3e700 (LWP 45554)]
+
+Thread 8 "mongod" hit Hardware watchpoint 9: -location keyb->size
+
+Old value = 32
+New value = 26
+
+Thread 8 "mongod" hit Hardware watchpoint 10: -location keyb->size
+
+Old value = 32
+New value = 26
+__wt_row_leaf_key_work (session=0x5593699f2df0, page=<optimized out>, rip_arg=0x5593b9dd21d0, keyb=0x559395c0b320, instantiate=<optimized out>) at src/third_party/wiredtiger/src/btree/row_key.c:412
+412	            WT_ERR(__wt_buf_grow(session, keyb, keyb->size + size));
+Continuing.
+[Switching to Thread 0x7f6207f3c700 (LWP 45556)]
+
+Thread 10 "mongod" hit Breakpoint 5, __wt_row_leaf_key_copy (session=session@entry=0x5593699f3720, page=page@entry=0x5593d8962000, rip=rip@entry=0x5593d8962fa0, key=0x55937cc154d0) at src/third_party/wiredtiger/src/btree/row_key.c:111
+111	{
+Continuing.
+[Switching to Thread 0x7f620773b700 (LWP 45557)]
+
+Thread 11 "mongod" hit Breakpoint 7, __wt_row_leaf_key_work (session=0x5593699f3bb8, page=0x559391740000, rip_arg=0x559391740570, keyb=0x55938ab94440, instantiate=false) at src/third_party/wiredtiger/src/btree/row_key.c:129
+129	{
+Continuing.
+[Switching to Thread 0x7f6208f3e700 (LWP 45554)]
+
+Thread 8 "mongod" hit Hardware watchpoint 9: -location keyb->size
+
+Old value = 26
+New value = 32
+
+Thread 8 "mongod" hit Hardware watchpoint 10: -location keyb->size
+
+Old value = 26
+New value = 32
+__wt_row_leaf_key_work (session=0x5593699f2df0, page=<optimized out>, rip_arg=0x5593b9dd21d0, keyb=0x559395c0b320, instantiate=<optimized out>) at src/third_party/wiredtiger/src/btree/row_key.c:416
+416	            if (slot_offset == 0)
+Continuing.
+[Switching to Thread 0x7f6200f2e700 (LWP 45571)]
+
+Thread 24 "TTLMonitor" hit Breakpoint 5, __wt_row_leaf_key_copy (session=session@entry=0x5593699f4980, page=page@entry=0x5593e0205000, rip=rip@entry=0x5593e0205068, key=0x559369728270) at src/third_party/wiredtiger/src/btree/row_key.c:111
+111	{
+Continuing.
+[Switching to Thread 0x7f61fd727700 (LWP 45578)]
+
+Thread 31 "Logical.cheReap" hit Breakpoint 11, __wt_row_leaf_key_work (session=0x5593699f6e40, page=<optimized out>, rip_arg=0x5593db691058, keyb=0x55936e6ca030, instantiate=<optimized out>) at src/third_party/wiredtiger/src/btree/row_key.c:204
+204	            keyb->size = size;
+Breakpoint 13 at 0x55934bb5aeea: file src/third_party/wiredtiger/src/btree/row_key.c, line 204.
+#0  __wt_row_leaf_key_work (session=0x5593699f6e40, page=<optimized out>, rip_arg=0x5593db691058, keyb=0x55936e6ca030, instantiate=<optimized out>) at src/third_party/wiredtiger/src/btree/row_key.c:204
+#1  0x000055934bb5e114 in __wt_row_leaf_key (instantiate=false, instantiate=false, key=0x55936e6ca030, rip=0x5593db691058, page=0x5593699f6e40, session=0x5593699f6e40) at src/third_party/wiredtiger/src/include/btree.i:988
+#2  __wt_row_leaf_key_copy (session=session@entry=0x5593699f6e40, page=page@entry=0x5593db691000, rip=rip@entry=0x5593db691058, key=0x55936e6ca030) at src/third_party/wiredtiger/src/btree/row_key.c:112
+[Switching to Thread 0x7f6208f3e700 (LWP 45554)]
+
+Thread 8 "mongod" hit Hardware watchpoint 9: -location keyb->size
+
+Old value = 32
+New value = 26
+
+Thread 8 "mongod" hit Hardware watchpoint 10: -location keyb->size
+
+Old value = 32
+New value = 26
+__wt_row_leaf_key_work (session=0x5593699f2df0, page=<optimized out>, rip_arg=0x5593b9dd21d0, keyb=0x559395c0b320, instantiate=<optimized out>) at src/third_party/wiredtiger/src/btree/row_key.c:412
+412	            WT_ERR(__wt_buf_grow(session, keyb, keyb->size + size));
+Continuing.
+[Switching to Thread 0x7f6207f3c700 (LWP 45556)]
+
+Thread 10 "mongod" hit Breakpoint 7, __wt_row_leaf_key_work (session=0x5593699f3720, page=0x5593d8962000, rip_arg=0x5593d8962fa0, keyb=0x55937cc154d0, instantiate=false) at src/third_party/wiredtiger/src/btree/row_key.c:129
+129	{
+Continuing.
+[Switching to Thread 0x7f620773b700 (LWP 45557)]
+
+Thread 11 "mongod" hit Breakpoint 5, __wt_row_leaf_key_copy (session=session@entry=0x5593699f3bb8, page=page@entry=0x559391740000, rip=rip@entry=0x559391740578, key=0x55938ab94440) at src/third_party/wiredtiger/src/btree/row_key.c:111
+111	{
+Continuing.
+[Switching to Thread 0x7f6208f3e700 (LWP 45554)]
+
+Thread 8 "mongod" hit Hardware watchpoint 9: -location keyb->size
+
+Old value = 26
+New value = 32
+
+Thread 8 "mongod" hit Hardware watchpoint 10: -location keyb->size
+
+Old value = 26
+New value = 32
+__wt_row_leaf_key_work (session=0x5593699f2df0, page=<optimized out>, rip_arg=0x5593b9dd21d0, keyb=0x559395c0b320, instantiate=<optimized out>) at src/third_party/wiredtiger/src/btree/row_key.c:416
+416	            if (slot_offset == 0)
+Continuing.
+[Switching to Thread 0x7f6200f2e700 (LWP 45571)]
+
+Thread 24 "TTLMonitor" hit Breakpoint 7, __wt_row_leaf_key_work (session=0x5593699f4980, page=0x5593e0205000, rip_arg=0x5593e0205068, keyb=0x559369728270, instantiate=false) at src/third_party/wiredtiger/src/btree/row_key.c:129
+129	{
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x000055934baaa2d0 in __wt_evict_thread_run at src/third_party/wiredtiger/src/evict/evict_lru.c:271
+	breakpoint already hit 1 time
+2       breakpoint     keep y   0x000055934bacf0d0 in __wt_reconcile at src/third_party/wiredtiger/src/reconcile/rec_write.c:34
+	breakpoint already hit 8 times
+3       breakpoint     keep n   0x000055934bb5e070 in __wt_row_leaf_key_copy at src/third_party/wiredtiger/src/btree/row_key.c:111
+	breakpoint already hit 9 times
+5       breakpoint     keep y   0x000055934bb5e070 in __wt_row_leaf_key_copy at src/third_party/wiredtiger/src/btree/row_key.c:111
+	stop only if key->size==0 && key->data==0
+	breakpoint already hit 17 times
+7       breakpoint     keep y   0x000055934bb5ad80 in __wt_row_leaf_key_work at src/third_party/wiredtiger/src/btree/row_key.c:129
+	breakpoint already hit 13 times
+8       breakpoint     keep y   0x000055934bb5aeea in __wt_row_leaf_key_work at src/third_party/wiredtiger/src/btree/row_key.c:204
+	breakpoint already hit 3 times
+        silent
+        break src/third_party/wiredtiger/src/btree/row_key.c:204
+        bt 3
+        continue
+9       hw watchpoint  keep y                      -location keyb->size
+	breakpoint already hit 15 times
+10      hw watchpoint  keep y                      -location keyb->size
+	breakpoint already hit 14 times
+11      breakpoint     keep y   0x000055934bb5aeea in __wt_row_leaf_key_work at src/third_party/wiredtiger/src/btree/row_key.c:204
+	breakpoint already hit 2 times
+12      breakpoint     keep y   0x000055934bb5aeea in __wt_row_leaf_key_work at src/third_party/wiredtiger/src/btree/row_key.c:204
+	breakpoint already hit 1 time
+13      breakpoint     keep y   0x000055934bb5aeea in __wt_row_leaf_key_work at src/third_party/wiredtiger/src/btree/row_key.c:204
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x000055934baaa2d0 in __wt_evict_thread_run at src/third_party/wiredtiger/src/evict/evict_lru.c:271
+	breakpoint already hit 1 time
+2       breakpoint     keep y   0x000055934bacf0d0 in __wt_reconcile at src/third_party/wiredtiger/src/reconcile/rec_write.c:34
+	breakpoint already hit 8 times
+5       breakpoint     keep y   0x000055934bb5e070 in __wt_row_leaf_key_copy at src/third_party/wiredtiger/src/btree/row_key.c:111
+	stop only if key->size==0 && key->data==0
+	breakpoint already hit 17 times
+7       breakpoint     keep y   0x000055934bb5ad80 in __wt_row_leaf_key_work at src/third_party/wiredtiger/src/btree/row_key.c:129
+	breakpoint already hit 13 times
+9       hw watchpoint  keep y                      -location keyb->size
+	breakpoint already hit 15 times
+Breakpoint 14 at 0x55934bb5aeea: file src/third_party/wiredtiger/src/btree/row_key.c, line 204.
+Bad breakpoint argument: '<bpnum> size == 0'
+Undefined command: "silent".  Try "help".
+Continuing.
+[Switching to Thread 0x7f6208f3e700 (LWP 45554)]
+
+Thread 8 "mongod" hit Hardware watchpoint 9: -location keyb->size
+
+Old value = 32
+New value = 26
+__wt_row_leaf_key_work (session=0x5593699f2df0, page=<optimized out>, rip_arg=0x5593b9dd21d0, keyb=0x559395c0b320, instantiate=<optimized out>) at src/third_party/wiredtiger/src/btree/row_key.c:412
+412	            WT_ERR(__wt_buf_grow(session, keyb, keyb->size + size));
+Continuing.
+
+Thread 8 "mongod" hit Hardware watchpoint 9: -location keyb->size
+
+Old value = 26
+New value = 32
+__wt_row_leaf_key_work (session=0x5593699f2df0, page=<optimized out>, rip_arg=0x5593b9dd21d0, keyb=0x559395c0b320, instantiate=<optimized out>) at src/third_party/wiredtiger/src/btree/row_key.c:416
+416	            if (slot_offset == 0)
+Continuing.
+[Switching to Thread 0x7f6207f3c700 (LWP 45556)]
+
+Thread 10 "mongod" hit Breakpoint 5, __wt_row_leaf_key_copy (session=session@entry=0x5593699f3720, page=page@entry=0x5593d8962000, rip=rip@entry=0x5593d8962fa8, key=0x55937cc154d0) at src/third_party/wiredtiger/src/btree/row_key.c:111
+111	{
+106	 * __wt_row_leaf_key_copy --
+107	 *     Get a copy of a row-store leaf-page key.
+108	 */
+109	int
+110	__wt_row_leaf_key_copy(WT_SESSION_IMPL *session, WT_PAGE *page, WT_ROW *rip, WT_ITEM *key)
+111	{
+112	    WT_RET(__wt_row_leaf_key(session, page, rip, key, false));
+113	
+114	    /* The return buffer may only hold a reference to a key, copy it. */
+115	    if (!WT_DATA_IN_ITEM(key))
+Currently logging to "gdb.log".
+Logs will overwrite the log file.
+Output will be logged and displayed.
+Debug output will be logged and displayed.
+Detaching from program: /home/ubuntu/work/mongo-4.2.1/mongod, process 45547
+[Inferior 1 (process 45547) detached]
